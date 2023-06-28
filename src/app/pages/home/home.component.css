@@ -1,0 +1,113 @@
+
+body {
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+  color: #5a5a5a;
+  font-family: 'Geologica', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+}
+
+.carousel-item {
+  height: 32rem;
+}
+.carousel-item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 32rem;
+}
+
+.carousel-image1 {
+  height: 100%; /* Establece una altura fija para la imagen */
+  object-fit: cover;
+  background: linear-gradient(rgba(7,7,12, 0.75), rgba(5,7,12, 0.75));/* Ajusta la imagen para que cubra el contenedor */
+}
+
+
+.featurette-heading {
+  font-weight: 400;
+  line-height: 1;
+  /* rtl:remove */
+  letter-spacing: -.05rem;
+  color: black;
+}
+
+
+@media (min-width: 40em) {
+  .carousel-caption p {
+    margin-bottom: 1.25rem;
+    font-size: 1.25rem;
+    line-height: 1.4;
+  }
+
+  .featurette-heading {
+    font-size:40px;
+  }
+
+  .featurette-heading2{
+    font-size: 15px;
+  }
+}
+
+@media (min-width: 62em) {
+  .featurette-heading {
+    margin-top: 1rem;
+  }
+}
+
+.h4{
+  font-size: 20px;
+}
+.featurette-heading2 {
+  font-weight: 50;
+  line-height: 1;
+  /* rtl:remove */
+  letter-spacing: -.05rem;
+  color: black;
+}
+
+.image-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.image-container img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.container-xxl {
+  text-align: center;
+
+}
+
+.featurette-heading3 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 991px) {
+  .featurette-heading3 {
+    font-size: 36px;
+  }
+}
+
+@media (max-width: 767px) {
+  .featurette-heading3 {
+    font-size: 24px;
+  }
+}
+.container-fluid{
+  margin: 0;
+  padding: 0;
+}
+
+
