@@ -90,13 +90,20 @@ body {
 }
 
 .featurette-heading3 {
-  font-size: 48px;
+  font-size: 50px;
   margin-bottom: 20px;
+}
+.featurette-heading3 {
+  font-weight: 400;
+  line-height: 1;
+  /* rtl:remove */
+  letter-spacing: -.05rem;
+  color: black;
 }
 
 @media (max-width: 991px) {
   .featurette-heading3 {
-    font-size: 36px;
+    font-size: 40px;
   }
 }
 
