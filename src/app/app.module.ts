@@ -8,15 +8,17 @@ import {ReactiveFormsModule} from '@angular/forms';
 import { HomeComponent } from './pages/home/home.component';
 
 import { RouterModule } from '@angular/router';
+import { FormComponent } from './pages/form/form.component';
 
 const routes =[
   { path: 'home', component: HomeComponent},
+  { path: 'form', component: FormComponent}
 ]
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-
+    FormComponent,
   ],
   imports: [
     BrowserModule,
